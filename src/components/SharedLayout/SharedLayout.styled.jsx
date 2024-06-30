@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-    min-width: 270px;
-    width: 100% vh;
-    padding: 20px 20px;
-    margin: 0 auto;
+       min-width: 270px;
+    width: 100%;
+    padding: 0 20px;
+    margin-right: auto;
+    margin-left: auto;
  
     @media screen and (min-width: 768px) {
         padding: 0 30px;
