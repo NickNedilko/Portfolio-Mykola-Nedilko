@@ -3,10 +3,11 @@
 
       {
       "id": "1",
-      "image": "./images/webStudio.webp",
+      "image": "./image/webStudio.webp",
       "title": "WebStudio",
       "description": "Web-site for web-studio consists of two pages with navigation and burger menu. The web-site has been created with HTML, has adaptive design, order and subscription forms",
       "type": "pet project",
+       "images": ["./images/webStudio.webp", "./images/webStudio1.webp", "./images/webStudio2.webp"],
       "technologies": ["HTML", "SCSS",  "JavaScript"],
       "github": "https://github.com/NickNedilko/goit-markup-hw-08",
       "livePage": "https://nicknedilko.github.io/goit-markup-hw-08/"
@@ -14,10 +15,11 @@
 
        {
       "id": "2",
-      "image": "./images/iceCream.webp",
+      "image": "./image/iceCream.webp",
       "title": "Ice-cream",
       "description": "Wed-site for ice-cream company whith adaptive design, reviews slider, map and order form. The web-site has been created with Parcel, has basic animation and styled using preprocessor SCSS",
       "type": "team project",
+       "images": ["./images/iceCream.webp", "./images/iceCream1.webp", "./images/iceCream2.webp"],
       "technologies": ["HTML", "SCSS", "JavaScript", "Parcel"],
       "github": "https://github.com/dimadimaya/team-18",
       "livePage": "https://dimadimaya.github.io/team-18/"
@@ -25,10 +27,11 @@
 
        {
       "id": "3",
-      "image": "./images/filmoteka-js.webp",
+      "image": "./image/filmoteka-js.webp",
       "title": "Movies project",
       "description": "Website for searching popular films with the possibility loginization, watching trailers, adding to queue for watching or add as a watched film",
       "type": "team project",
+       "images": ["./images/filmoteka-js.webp", "./images/filmoteka-js1.webp", "./images/filmoteka-js2.webp"],
       "technologies": ["HTML", "SASS", "JavaScript", "Axios", "Parcel", "REST API"],
       "github": "https://github.com/nirqqen97/Filmoteka-Project",
       "livePage": "https://nirqqen97.github.io/Filmoteka-Project/index.html"
@@ -36,10 +39,11 @@
 
     {
       "id": "4",
-      "image": "./images/filmoteka.webp",
+      "image": "./image/filmoteka.webp",
       "title": "Filmoteka project",
       "description": "Web-site for movies reflects trending movies via API and allows movies search by name and get main information about film and watch trailer if it available. MovieInfo page also contains movie gallery, cast and reviews and  for the film",
       "type": "pet project",
+      "images": ["./images/filmoteka.webp", "./images/filmoteka1.webp", "./images/filmoteka2.webp"],
       "technologies": ["React", "JavaScript",  "React-router-dom", "Axios", "Spinner", "Styled components", "React-content-loader", "React-swiper", "React-infinite-scroll-component"],
       "github": "https://github.com/NickNedilko/Filmoteka",
       "livePage": "https://filmoteka-q3gw.vercel.app/"

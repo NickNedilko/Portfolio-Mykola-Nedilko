@@ -13,7 +13,7 @@ export const ProjectInfo = () => {
     console.log(project)
     return (
         <>
-         <img src={image} alt={title} />
+         {/* <img src={image} alt={title} /> */}
           <Wrapper>
           <Title>Title: <Description>{title}</Description></Title>
           <Title>Description: <Description>{description}</Description></Title>

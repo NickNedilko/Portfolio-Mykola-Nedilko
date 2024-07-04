@@ -16,7 +16,7 @@ const ProjectInfoPage = lazy(()=>import('./pages/ProjectInfoPage/ProjectInfoPage
 function App() {
   
   return (
-       <div>
+      
       <Routes>
         <Route path='/' element={<SharedLayout/>}>
           <Route index element={<HomePage/>}/>
@@ -27,7 +27,7 @@ function App() {
           <Route path='*' element={<h1>Not found</h1>}/>
           </Route>
       </Routes>
-     </div>
+   
   )
 }
 

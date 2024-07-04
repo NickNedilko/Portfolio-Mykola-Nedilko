@@ -1,4 +1,4 @@
-import { StyledFooter, List, StyledLink, StyledTextLink, Text } from './Footer.styled';
+import { StyledFooter,  StyledLink,  Text } from './Footer.styled';
 
 // import scrollToTop from '../helpers/ScrollToTop';
 
@@ -13,9 +13,6 @@ const Footer = () => {
 
   return (
     <StyledFooter id='contact'>
- 
-
-  
     <Text>© {date}. All rights are reserved. Developed by <StyledLink href="https://github.com/NickNedilko" aria-label="link to Github" rel="noopener noreferrer nofollow" target='_blank' onClick={(e) => e.target.blur()}>Mykola Nedilko</StyledLink></Text>
     </StyledFooter>
   )
