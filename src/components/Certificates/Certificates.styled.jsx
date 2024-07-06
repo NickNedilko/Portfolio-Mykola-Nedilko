@@ -7,13 +7,6 @@ export const CertificateSection = styled.section`
     border-radius: 15px;
 ` 
 
-export const SectionTitle = styled.h2`
-  margin-bottom: 40px;
-  color: blueviolet;
-    font-size: 25px;
-    font-weight: 600;
-    text-align: center;
-`
 
 export const List = styled.ul`
     display: flex;

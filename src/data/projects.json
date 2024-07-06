@@ -41,7 +41,7 @@
       "id": "4",
       "image": "./image/filmoteka.webp",
       "title": "Filmoteka project",
-      "description": "Web-site for movies reflects trending movies via API and allows movies search by name and get main information about film and watch trailer if it available. MovieInfo page also contains movie gallery, cast and reviews and  for the film",
+      "description": "Web-site for movies reflects trending movies via API and allows movies search by name and get main information about film and watch trailer if it available. MovieInfo page also contains movie gallery, cast and reviews of the film",
       "type": "pet project",
       "images": ["./images/filmoteka.webp", "./images/filmoteka1.webp", "./images/filmoteka2.webp"],
       "technologies": ["React", "JavaScript",  "React-router-dom", "Axios", "Spinner", "Styled components", "React-content-loader", "React-swiper", "React-infinite-scroll-component"],

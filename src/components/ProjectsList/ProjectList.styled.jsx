@@ -1,6 +1,13 @@
 import styled from "styled-components";
 
-
+export const PageTitle = styled.h1`
+    font-size: 36px;
+    margin-bottom: 25px;
+    background: var(--title-color);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+`
 
 export const List = styled.ul`
     display: flex;

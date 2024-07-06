@@ -6,7 +6,8 @@
 import img1 from '../../assets/certificates/certificate.webp';
 import img2 from '../../assets/certificates/certificate_p2.webp';
 import img3 from '../../assets/certificates/certificate_p3.webp';
-import { CertificateSection, Img, List, SectionTitle } from './Certificates.styled';
+import { SectionTitle } from '../TechSkills/TechSkills.styled';
+import { CertificateSection, Img, List} from './Certificates.styled';
 
 
 export const Certificates = () => {

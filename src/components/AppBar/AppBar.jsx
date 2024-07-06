@@ -23,9 +23,6 @@ export const AppBar = () => {
           <li><StyledLink to="projects" 
           aria-label='projects'
           onClick={(e) => e.target.blur()}>Projects</StyledLink></li>
-          <li><StyledLink to="contacts" 
-          aria-label='contacts'
-          onClick={(e) => e.target.blur()}>Contacts</StyledLink></li>
         </List>
       </Nav>
     )

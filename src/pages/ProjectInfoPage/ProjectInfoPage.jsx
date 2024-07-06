@@ -12,7 +12,6 @@ const ProjectInfoPage = () => {
 
     return (
         <>
-            {/* <img src={`.${project.image}`} alt="zsadfghj" /> */}
             <ImageSwiper project={project} />
         <ProjectInfo/>
         </>

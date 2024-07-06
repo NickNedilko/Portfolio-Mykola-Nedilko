@@ -9,7 +9,7 @@ import { Description, Title, Wrapper, Link } from "./ProjectInfo.styled";
 export const ProjectInfo = () => {
   const {id} = useParams();
  const project = projects.find(item=>item.id===id)
-     const { image, title, description, type, technologies, github, livePage } = project;
+     const { title, description, type, technologies, github, livePage } = project;
     console.log(project)
     return (
         <>

@@ -30,10 +30,11 @@ export const SkillSection = styled.section`
 ` 
 
 export const SectionTitle = styled.h2`
-  margin-bottom: 40px;
-  color: blueviolet;
-    font-size: 25px;
-    font-weight: 600;
+  font-size: 30px;
+    margin-bottom: 25px;
+    background: var(--title-color);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
 `
 
