@@ -1,8 +1,8 @@
 
 
 import {
-    AxiosIcon, BootstrapIcon, CssIcon, EmotionIcon, FigmaIcon, GitHubIcon, GitIcon, HtmlIcon,
-    JsIcon, List, MongoDBIcon, NodeIcon, ReactIcon, ReduxIcon, RestApiIcon, ScssIcon, SectionTitle,
+    AxiosIcon, BootstrapIcon, CssIcon, EmotionIcon, ExpressIcon, FigmaIcon, GitHubIcon, GitIcon, HtmlIcon,
+    JsIcon, List, MongoDBIcon, MongooseIcon, NodeIcon, PostmanIcon, ReactIcon, ReduxIcon, RestApiIcon, ScssIcon, SectionTitle,
     SkillSection, StyledIcon, TsIcon, WebPackIcon
 } from "./TechSkills.styled"
 
@@ -10,7 +10,8 @@ import {
 export const TechSkills = () => {
   return (
     <SkillSection>
-        <SectionTitle>TECHNICAL SKILLS</SectionTitle>
+          <SectionTitle>TECHNICAL SKILLS</SectionTitle>
+          <h2>Frontend:</h2>
         <List>
         <li><HtmlIcon/></li>
               <li><CssIcon /></li>
@@ -28,9 +29,19 @@ export const TechSkills = () => {
               <li><ReduxIcon /></li>
               <li><GitIcon /></li>
               <li><GitHubIcon/></li>
+           
+          </List>
+          <h2>Backend:</h2>
+          <List>
               <li><NodeIcon /></li>
               <li><MongoDBIcon /></li>
-        </List>
+              <li><ExpressIcon /></li>
+              <li><MongooseIcon /></li>
+              <li><PostmanIcon /></li>
+
+
+
+          </List>
     </SkillSection>
   )
 }

@@ -18,6 +18,12 @@ import { ReactComponent as Node } from '../../assets/icons/node.svg';
 import { ReactComponent as MongoDB } from '../../assets/icons/mongoDB.svg';
 import { ReactComponent as Figma } from '../../assets/icons/figma.svg';
 import { ReactComponent as Axios } from '../../assets/icons/axios.svg';
+import { ReactComponent as Express } from '../../assets/icons/express.svg';
+import { ReactComponent as Mongoose } from '../../assets/icons/mongoose.svg';
+import { ReactComponent as Postman } from '../../assets/icons/postman.svg';
+
+
+
 
 
 
@@ -103,6 +109,36 @@ export const CssIcon = styled(Css)`
     }
 `;
 
+export const PostmanIcon = styled(Postman)`
+    width: 50px;
+    height: 50px;
+
+    @media screen and (min-width: 768px) {
+        width: 70px;
+        height: 70px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 100px;
+        height: 100px;
+    }
+`;
+
+
+export const MongooseIcon = styled(Mongoose)`
+    width: 50px;
+    height: 50px;
+
+    @media screen and (min-width: 768px) {
+        width: 70px;
+        height: 70px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 100px;
+        height: 100px;
+    }
+`;
 
 
 export const GitIcon = styled(Git)`
@@ -195,6 +231,20 @@ export const TsIcon = styled(Ts)`
 `;
 
 export const MongoDBIcon = styled(MongoDB)`
+    width: 50px;
+    height: 50px;
+
+    @media screen and (min-width: 768px) {
+        width: 70px;
+        height: 70px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 100px;
+        height: 100px;
+    }
+`;
+export const ExpressIcon = styled(Express)`
     width: 50px;
     height: 50px;
 
