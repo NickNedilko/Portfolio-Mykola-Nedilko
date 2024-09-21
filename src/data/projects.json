@@ -1,20 +1,31 @@
 
 [
 
-      {
+        {
       "id": "1",
-      "image": "./image/webStudio.webp",
-      "title": "WebStudio",
-      "description": "Web-site for web-studio consists of two pages with navigation and burger menu. The web-site has been created with HTML, has adaptive design, order and subscription forms",
+      "image": "./image/crm.webp",
+      "title": "CRM",
+      "description": "CRM-like web-site aimed at optimizing the management of information about customers",
       "type": "pet project",
-       "images": ["./images/webStudio.webp", "./images/webStudio1.webp", "./images/webStudio2.webp"],
-      "technologies": ["HTML", "SCSS",  "JavaScript"],
-      "github": "https://github.com/NickNedilko/goit-markup-hw-08",
-      "livePage": "https://nicknedilko.github.io/goit-markup-hw-08/"
+      "images": ["./images/crm1.webp", "./images/crm2.webp", "./images/crm3.webp", "./images/crm4.webp"],
+      "technologies": ["Next","Parallel Routes", "Intercepting Routes" ,"React", "JavaScript", "TypeScript" ,"Tailwind CSS", "React query",  "Mock-Api"],
+      "github": "https://github.com/NickNedilko/crm-next.js",
+      "livePage": "https://crm-next-js-one.vercel.app/"
+    },
+    {
+      "id": "2",
+      "image": "./image/filmoteka.webp",
+      "title": "Filmoteka project",
+      "description": "Web-site for movies reflects trending movies via API and allows movies search by name and get main information about film and watch trailer if it available. MovieInfo page also contains movie gallery, cast and reviews of the film",
+      "type": "pet project",
+      "images": ["./images/filmoteka.webp", "./images/filmoteka1.webp", "./images/filmoteka2.webp"],
+      "technologies": ["React", "JavaScript",  "React-router-dom", "Axios", "Spinner", "Styled components", "React-content-loader", "React-swiper", "React-infinite-scroll-component"],
+      "github": "https://github.com/NickNedilko/Filmoteka",
+      "livePage": "https://filmoteka-q3gw.vercel.app/"
     },
 
        {
-      "id": "2",
+      "id": "3",
       "image": "./image/iceCream.webp",
       "title": "Ice-cream",
       "description": "Wed-site for ice-cream company whith adaptive design, reviews slider, map and order form. The web-site has been created with Parcel, has basic animation and styled using preprocessor SCSS",
@@ -26,7 +37,7 @@
       },
 
        {
-      "id": "3",
+      "id": "4",
       "image": "./image/filmoteka-js.webp",
       "title": "Movies project",
       "description": "Website for searching popular films with the possibility loginization, watching trailers, adding to queue for watching or add as a watched film",
@@ -36,31 +47,17 @@
       "github": "https://github.com/nirqqen97/Filmoteka-Project",
       "livePage": "https://nirqqen97.github.io/Filmoteka-Project/index.html"
     },
-
     {
-      "id": "4",
-      "image": "./image/filmoteka.webp",
-      "title": "Filmoteka project",
-      "description": "Web-site for movies reflects trending movies via API and allows movies search by name and get main information about film and watch trailer if it available. MovieInfo page also contains movie gallery, cast and reviews of the film",
-      "type": "pet project",
-      "images": ["./images/filmoteka.webp", "./images/filmoteka1.webp", "./images/filmoteka2.webp"],
-      "technologies": ["React", "JavaScript",  "React-router-dom", "Axios", "Spinner", "Styled components", "React-content-loader", "React-swiper", "React-infinite-scroll-component"],
-      "github": "https://github.com/NickNedilko/Filmoteka",
-      "livePage": "https://filmoteka-q3gw.vercel.app/"
-    },
-     {
       "id": "5",
-      "image": "./image/rentCar.webp",
-      "title": "Car rent project",
-      "description": "Simple app for find and rent a car. With possibility to add to the 'Favorite' the car you like",
+      "image": "./image/webStudio.webp",
+      "title": "WebStudio",
+      "description": "Web-site for web-studio consists of two pages with navigation and burger menu. The web-site has been created with HTML, has adaptive design, order and subscription forms",
       "type": "pet project",
-      "images": ["./images/rentCar.webp", "./images/rentCar1.webp", "./images/rentCar2.webp"],
-      "technologies": ["React", "JavaScript", "TypeScript" , "React-router-dom", "Axios", "Spinner", "Styled components",  "Mock-Api"],
-      "github": "https://github.com/NickNedilko/Filmoteka",
-      "livePage": "https://filmoteka-q3gw.vercel.app/"
+       "images": ["./images/webStudio.webp", "./images/webStudio1.webp", "./images/webStudio2.webp"],
+      "technologies": ["HTML", "SCSS",  "JavaScript"],
+      "github": "https://github.com/NickNedilko/goit-markup-hw-08",
+      "livePage": "https://nicknedilko.github.io/goit-markup-hw-08/"
     }
-
-
 
 
   ]

@@ -19,11 +19,11 @@ export const AboutMe = () => {
                 <Title>Mykola Nedilko</Title>
                  <Subtitle>FullStack developer</Subtitle>
                  <LinksWrapper>
-                <Link to="projects" 
+                <StyledBtn to="projects" 
                 aria-label="projects"
                           onClick={(e) => e.target.blur()}>
-                      <StyledBtn type='button'>Projects</StyledBtn>
-                      </Link>  
+                      Projects
+                      </StyledBtn>  
                 <CV/>
                 </LinksWrapper>
                 </Wrapper>

@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 
 
-export const CvButton = styled.button`
+export const CvButton = styled.a`
+    display: inline-block;
     width: 150px;
     padding: 15px;
     border-radius: 15px;

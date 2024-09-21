@@ -1,4 +1,4 @@
-import Resume from '../../assets/Resume_Nedilko_Mykola.pdf';
+import Resume from '../../assets/CV_Mykola_Nedilko.pdf';
 import { CvButton } from './CV.styled';
 
 
@@ -8,7 +8,7 @@ export const CV = () => {
     <div>
       <CvButton
       href={Resume}
-      download="CV_Resume_Nedilko_Mykola.pdf"
+      download="CV_Mykola_Nedilko.pdf"
       target="_blank"
       rel="noreferrer"
       onClick={(e) => e.target.blur()}

@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 
@@ -46,8 +47,9 @@ const text = `
     }
 `;
 
-export const StyledBtn = styled.button`
-width: 150px;
+export const StyledBtn = styled(Link)`
+    display: inline-block;
+    width: 150px;
     padding: 15px;
     border-radius: 15px;
     background: var(--bgd);

@@ -21,6 +21,13 @@ import { ReactComponent as Axios } from '../../assets/icons/axios.svg';
 import { ReactComponent as Express } from '../../assets/icons/express.svg';
 import { ReactComponent as Mongoose } from '../../assets/icons/mongoose.svg';
 import { ReactComponent as Postman } from '../../assets/icons/postman.svg';
+import { ReactComponent as Prisma } from '../../assets/icons/prisma.svg';
+import { ReactComponent as PostgreSQl } from '../../assets/icons/postgresql.svg';
+import { ReactComponent as Tailwind } from '../../assets/icons/tailwind.svg';
+
+
+
+
 
 
 
@@ -46,10 +53,11 @@ export const SectionTitle = styled.h2`
 
 export const List = styled.ul`
     display: flex;
+    margin-top: 40px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     
 
     @media screen and (min-width: 768px) {
@@ -365,6 +373,51 @@ export const FigmaIcon = styled(Figma)`
 `;
 
 export const AxiosIcon = styled(Axios)`
+    width: 50px;
+    height: 50px;
+
+    @media screen and (min-width: 768px) {
+        width: 70px;
+        height: 70px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 100px;
+        height: 100px;
+    }
+`;
+
+export const PrismaIcon = styled(Prisma)`
+    width: 50px;
+    height: 50px;
+
+    @media screen and (min-width: 768px) {
+        width: 70px;
+        height: 70px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 100px;
+        height: 100px;
+    }
+`;
+
+export const PostgreSQLIcon = styled(PostgreSQl)`
+    width: 50px;
+    height: 50px;
+
+    @media screen and (min-width: 768px) {
+        width: 70px;
+        height: 70px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 100px;
+        height: 100px;
+    }
+`;
+
+export const TailwindIcon = styled(Tailwind)`
     width: 50px;
     height: 50px;
 

@@ -10,7 +10,7 @@ export const ProjectInfo = () => {
   const {id} = useParams();
  const project = projects.find(item=>item.id===id)
      const { title, description, type, technologies, github, livePage } = project;
-    console.log(project)
+  
     return (
         <>
          {/* <img src={image} alt={title} /> */}

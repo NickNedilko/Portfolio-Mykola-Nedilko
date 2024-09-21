@@ -33,6 +33,7 @@ const text = `
 export const Title = styled.p`
     ${text}
     font-weight: 600;
+    margin-bottom: 15px;
 `;
 
 export const Description = styled.span`
